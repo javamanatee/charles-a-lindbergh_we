@@ -66,15 +66,31 @@ figcaption{
 figcaption p + p{
 	text-indent: 0;
 }
+
+figure.full-page{
+	break-after: page;
+	break-before: page;
+}
+
+figcaption i{
+	font-style: normal;
+}
 /* end figures */
 
-/* no bullets lists */
+/* list formatting */
 ul{
 	list-style-type: none; /* Remove bullets */
+}
+
+#dedication ul{
 	margin: 0; /* Remove margins */
 	padding: 0; /* Remove padding */
 }
-/* end no bullets lists */
+
+#chapter-9 ul{
+	margin: 1em 0;
+}
+/* end list formatting */
 
 /* dedication custom styling */
 #dedication p{
@@ -100,3 +116,11 @@ ul{
 	text-align: initial;
 }
 /* end dedication custom styling */
+
+/* special headers */
+#chapter-3 header,
+#chapter-10 header{
+	font-variant: small-caps;
+	margin-top: 3em;
+}
+/* end special headers */
