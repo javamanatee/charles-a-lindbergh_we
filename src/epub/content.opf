@@ -28,7 +28,7 @@
 		<meta property="schema:accessibilityFeature">unlocked</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
-		<dc:title id="title">We</dc:title>
+		<dc:title id="title">“We”</dc:title>
 		<meta property="file-as" refines="#title">We</meta>
 		<dc:subject id="subject-1">Aeronautics -- Flights</dc:subject>
 		<dc:subject id="subject-2">Transatlantic flights</dc:subject>
@@ -39,51 +39,68 @@
 		<meta property="term" refines="#subject-2">sh85136873</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008117571</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Autobiography</meta>
+		<meta property="se:subject">Nonfiction</meta>
+		<dc:description id="description">Charles Lindbergh gives an account of his early life, how he got into flying, and leads up to his famous transatlantic flight.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Lindbergh recounts his early life, his interest in science and mechanical things. Went to study engineering in Madison, then left for Nebraska to enroll in flight lessons. Was not able to solo, did not have funds to put up a bond. Went barnstorming, doing stunts like wing-walking and parachute jumps. Did this across the United States, and finally bought his own plane from wartime surplus. These were training planes with rather limited power. joins Army Air Service to get access to faster planes, joins air mail service by working for a company that bid on mail routes. Leading up to building the &lt;i&gt;Spirit of St. Louis&lt;/i&gt; and the transatlantic flight.&lt;/p&gt;
+			&lt;p&gt;Second part of book written by the writer and arctic explorer Fitzhugh Green. Lindbergh too modest to write about the reception of his flight. Ambassador of goodwill between U.S. and Europe. Lindbergh was more interested in promoting commercial aviation than himself. Always used “we” to refer to all who were involved in his flight, and refused to take sole credit. This won him more admiration above and beyond his mere feat of crossing the Atlantic Ocean.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/73142</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/bwb_Y0-CGU-336</dc:source>
+		<meta property="se:production-notes">The quotes in the title prevented a clean import from PG, so HTML was copied manually for initial commit. Some closing tags were missing and were added manually to produce acceptable code.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/We</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/charles-a-lindbergh_we</meta>
 		<dc:creator id="author">Charles A. Lindbergh</dc:creator>
 		<meta property="file-as" refines="#author">Lindbergh, Charles A.</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Charles_A._Lindbergh</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:name.person.full-name" refines="#author">Charles Augustus Lindbergh</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Charles_Lindbergh</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79100565</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
+		<dc:contributor id="contributor-1">Myron T. Herrick</dc:contributor>
+		<meta property="file-as" refines="#contributor-1">Herrick, Myron T.</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#contributor-1">https://en.wikipedia.org/wiki/Myron_T._Herrick</meta>
+		<meta property="role" refines="#contributor-1" scheme="marc:relators">wfw</meta>
+		<dc:contributor id="contributor-2">Fitzhugh Green</dc:contributor>
+		<meta property="file-as" refines="#contributor-2">Green, Fitzhugh</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#contributor-2">https://en.wikipedia.org/wiki/Fitzhugh_Green_Sr.</meta>
+		<meta property="se:url.authority.nacoaf" refines="#contributor-2">http://id.loc.gov/authorities/names/n88274747</meta>
+		<meta property="role" refines="#contributor-2" scheme="marc:relators">ctb</meta>
+		<meta property="display-seq" refines="#contributor-2">0</meta>
+		<dc:contributor id="contributor-3">G. P. Putnam's Sons</dc:contributor>
+		<meta property="role" refines="#contributor-3" scheme="marc:relators">wfw</meta>
+		<meta property="display-seq" refines="#contributor-3">0</meta>
+		<dc:contributor id="contributor-4">Anonymous</dc:contributor>
+		<meta property="role" refines="#contributor-4" scheme="marc:relators">ill</meta>
+		<meta property="display-seq" refines="#contributor-4">0</meta>
+		<dc:contributor id="artist">Einar Kverne</dc:contributor>
+		<meta property="file-as" refines="#artist">Kverne, Einar</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_1_URL</meta>
+		<dc:contributor id="transcriber-1">Tim Lindell</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Lindell, Tim</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-2">TRANSCRIBER_2_URL</meta>
+		<dc:contributor id="transcriber-2">David E. Brown</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Brown, David E.</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
 		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Jason Livermore</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Livermore, Jason</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://jasonlivermore.wordpress.com/ebooks</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">loi</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
